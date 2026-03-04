@@ -1,0 +1,4 @@
+### Get canvas students
+GET {{ imagen_publica.url }}/api/v1/accounts/1/users
+Accept: application/json
+Authorization: Bearer {{ imagen_publica.token }}
