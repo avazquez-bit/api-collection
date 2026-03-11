@@ -1,0 +1,8 @@
+### Get students
+GET {{ api_url }}/v3/schoolControl/students
+    ?periodId=45
+    &rowsPerPage=200
+    &pageNumber=3
+    &onlyCurrentStudents=false
+Authorization: Basic {{ cesuma.user }} {{ cesuma.secret}}
+Content-Type: application/json

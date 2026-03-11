@@ -1,0 +1,11 @@
+### GET request to example server
+POST {{ local.url }}/api/notifications
+Authorization: Basic {{ local.token }}
+Content-Type: application/json
+
+{
+    "user":"NTA2MDF8MjcyNnwxfDB8MTAxOA==",
+    "notification_type":57,
+    "reference_id":381018,
+    "platform":"samva"
+}
