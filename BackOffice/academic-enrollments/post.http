@@ -1,0 +1,146 @@
+### Create new enrolment
+POST {{test.uvl.url}}/api/academic/{{test.uvl.school_id}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "evento": {
+        "tipo": {
+            "id": 5,
+            "clave": "inscripciones_academicas.registro",
+            "nombre": "inscripciones_academicas.registro"
+        },
+        "fecha": "2026-03-02T14:42:35",
+        "tenant": {
+            "id": 412,
+            "alias": "liverpool",
+            "nombre": "liverpool"
+        },
+        "responsable": {
+            "id": null,
+            "nombre": null,
+            "apellido_materno": null,
+            "apellido_paterno": null
+        }
+    },
+    "informacion": {
+        "id": 640976,
+        "fecha": "2026-03-02",
+        "alumno": {
+            "id": 326,
+            "curp": "VECG920206MMCGVS09",
+            "foto": null,
+            "genero": {
+                "id": 1,
+                "nombre": "Femenino"
+            },
+            "nombre": "Giselle Ariadne",
+            "familia": {
+                "id": 31765,
+                "nombre": "Vega Cuevas"
+            },
+            "matricula": "16558129",
+            "estado_civil": {
+                "id": 1,
+                "nombre": "Soltero"
+            },
+            "idPersonaRef": null,
+            "fecha_ingreso": "2025-11-25",
+            "apellido_materno": "Cuevas",
+            "apellido_paterno": "Vega",
+            "fecha_nacimiento": "1992-02-06",
+            "idTipoPersonaRef": null,
+            "lugar_nacimiento": "ESTADO DE MÉXICO",
+            "entidad_nacimiento": {
+                "id": null,
+                "nombre": "Estado de México"
+            },
+            "informacion_contacto": {
+                "correo": "gavegac@ifliverpool.edu.mx",
+                "telefono_casa": null,
+                "telefono_movil": "5547404340"
+            },
+            "matricula_secundaria": null,
+            "informacion_adicional": null,
+            "inscripcion_administrativa": {
+                "id": 105111,
+                "folio": "43910",
+                "grado": 1,
+                "turno": {
+                    "id": 1,
+                    "nombre": "Mixto"
+                },
+                "estatus": {
+                    "id": 5,
+                    "nombre": "Nuevo Ingreso",
+                    "es_activo": true,
+                    "abreviatura": "NIN",
+                    "considerar_academicamente": true,
+                    "considerar_administrativamente": true
+                },
+                "periodo": {
+                    "id": 225,
+                    "nombre": "S22-2026-2",
+                    "fecha_fin": "2026-05-29",
+                    "abreviatura": "Ene 26-May 26",
+                    "fecha_inicio": "2026-01-05",
+                    "abreviatura_corta": "261"
+                },
+                "plantel": {
+                    "id": 1,
+                    "nombre": "INSTITUTO DE FORMACIÓN LIVERPOOL, SEDE BUENAVISTA",
+                    "abreviatura": "IFL"
+                },
+                "alumno_id": 24220,
+                "oferta_educativa": {
+                    "id": 10,
+                    "nombre": "MAESTRÍA EN GESTIÓN DE LA MERCADOTECNIA",
+                    "abreviatura": "13",
+                    "plan_estudios": null,
+                    "nivel_academico": null
+                },
+                "fecha_inscripcion": "2025-11-25",
+                "grupo_administrativo": null
+            }
+        },
+        "grupo_configurado": {
+            "id": 5097,
+            "aula": {
+                "id": 1,
+                "nombre": "VIRTUAL"
+            },
+            "grupo": {
+                "id": 1130,
+                "grado": 1,
+                "nombre": "MGM101"
+            },
+            "periodo": {
+                "id": 225,
+                "nombre": "S22-2026-2",
+                "fecha_fin": "2026-05-29",
+                "abreviatura": "Ene 26-May 26",
+                "fecha_inicio": "2026-01-05",
+                "abreviatura_corta": "261"
+            },
+            "profesor": {
+                "id": 170,
+                "email": "FJCRUZA@IFLIVERPOOL.EDU.MX",
+                "nombre": "FRANCISCO JAVIER",
+                "apellido_materno": "ARIZA",
+                "apellido_paterno": "CRUZ"
+            },
+            "asignatura": {
+                "id": 60,
+                "clave": "MGM0103",
+                "nombre": "CONTABILIDAD FINANCIERA"
+            },
+            "plan_estudios": {
+                "id": 10,
+                "nombre": "MAESTRÍA EN GESTIÓN DE LA MERCADOTECNIA",
+                "version": "2022"
+            }
+        }
+    }
+}
+
+###
