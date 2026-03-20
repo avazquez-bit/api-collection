@@ -1,0 +1,9 @@
+### GET request to example server
+POST {{ local.url }}/api/access
+Content-Type: application/json
+
+{
+    "reference_id": 49610,
+    "reference_type": "account",
+    "action": "refresh_credentials"
+}
