@@ -3,7 +3,7 @@ POST {{ local.url }}/api/access
 Content-Type: application/json
 
 {
-    "reference_id": 49610,
-    "reference_type": "account",
-    "action": "refresh_credentials"
+  "reference_id": 55240,
+  "reference_type": "account",
+  "action": "refresh_credentials"
 }
