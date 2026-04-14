@@ -1,0 +1,100 @@
+### Create canvas students
+POST {{local.imagen_publica.url}}/api/academic/{{local.imagen_publica.school_id}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "evento": {
+        "tipo": {
+            "id": 2,
+            "clave": "inscripciones_administrativas.registro",
+            "nombre": "inscripciones_administrativas.registro"
+        },
+        "fecha": "2026-04-13T21:53:31",
+        "tenant": {
+            "id": 592,
+            "alias": "test_imagenpublica",
+            "nombre": "test_imagenpublica"
+        },
+        "responsable": {
+            "id": 1,
+            "nombre": "BIT",
+            "apellido_materno": "Admin",
+            "apellido_paterno": "Technologies"
+        }
+    },
+    "informacion": {
+        "id": 98173,
+        "folio": "14746",
+        "grado": 2,
+        "turno": {
+            "id": 1,
+            "nombre": "Matutino",
+            "abreviatura": null
+        },
+        "estatus": {
+            "id": 6,
+            "nombre": "Reinscrito",
+            "es_activo": true,
+            "abreviatura": "ACT",
+            "responsable": {
+                "id": 1,
+                "nombre": "BIT",
+                "apellido_materno": "Admin",
+                "apellido_paterno": "Technologies"
+            },
+            "considerar_academicamente": true,
+            "considerar_administrativamente": true
+        },
+        "periodo": {
+            "id": 251,
+            "nombre": "2026-2",
+            "tipo_plan": {
+                "id": 3,
+                "meses": 6,
+                "nombre": "Semestral",
+                "unidad": "Semestre",
+                "abreviatura": "Sem"
+            },
+            "abreviatura": "Ene 26-Jun 26",
+            "fecha_final": "2026-06-05T00:00:00",
+            "fecha_inicial": "2026-01-26T00:00:00"
+        },
+        "plantel": {
+            "id": 1,
+            "cct": "616306",
+            "correo": "info@imagenpublica.mx",
+            "escudo": "https://d1e18x1focdnv1.cloudfront.net/test_imagenpublica/Escudos/7e321aa3_348e_4208_88c5_f2685f8e7e371.png",
+            "nombre": "COLEGIO DE IMAGEN PÚBLICA",
+            "telefono": "50808800",
+            "abreviatura": "CIP"
+        },
+        "alumno_id": 92042,
+        "observaciones": null,
+        "oferta_educativa": {
+            "id": 18,
+            "nombre": "LIMA",
+            "abreviatura": "LIM",
+            "plan_estudios": {
+                "id": 39,
+                "cct": "616306",
+                "rvoe": {
+                    "clave": "20230144",
+                    "fecha": "2023-01-19T00:00:00",
+                    "reconocimiento": "RVOE ESTATAL"
+                },
+                "nombre": "LIMA",
+                "version": "PRESENCIAL"
+            },
+            "nivel_academico": {
+                "id": 4,
+                "nombre": "Superior"
+            }
+        },
+        "fecha_inscripcion": "2026-04-13",
+        "grupo_administrativo": {
+            "id": null,
+            "nombre": null
+        }
+    }
+}

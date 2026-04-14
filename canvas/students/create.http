@@ -1,0 +1,177 @@
+### Create canvas students
+POST {{test.url}}/api/academic/{{test.imagen_publica.school_id}}
+Accept: application/json
+Content-Type: application/json
+
+{
+    "evento": {
+        "tipo": {
+            "id": 1,
+            "clave": "alumnos.registro",
+            "nombre": "alumnos.registro"
+        },
+        "fecha": "2026-04-10T18:11:16",
+        "tenant": {
+            "id": 470,
+            "alias": "cesuma",
+            "nombre": "cesuma"
+        },
+        "responsable": {
+            "id": 59,
+            "nombre": "JOSÉ MANUEL",
+            "apellido_materno": null,
+            "apellido_paterno": "CASTILLO"
+        }
+    },
+    "informacion": {
+        "id": 92042,
+        "curp": "3125561695",
+        "foto": null,
+        "genero": {
+            "id": 1,
+            "nombre": "Femenino"
+        },
+        "nombre": "ANGIE NATALIA",
+        "familia": {
+            "id": 31754,
+            "tutor": {
+                "id": 62400,
+                "nombre": "NATALIA",
+                "contacto": {
+                    "telefono_movil": null,
+                    "telefono_trabajo": null,
+                    "telefono_personal": null,
+                    "correo_electronico": null
+                },
+                "datos_fiscales": [
+                    {
+                        "rfc": null,
+                        "razon_social": null,
+                        "codigo_postal": null,
+                        "regimen_fiscal": null
+                    }
+                ],
+                "apellido_materno": null,
+                "apellido_paterno": "ROMERO",
+                "contacto_emergencia": {
+                    "id": 62400,
+                    "nombre": "NATALIA",
+                    "contacto": {
+                        "telefono_movil": null,
+                        "telefono_trabajo": null,
+                        "telefono_personal": null,
+                        "correo_electronico": null
+                    },
+                    "apellido_materno": null,
+                    "apellido_paterno": "ROMERO"
+                }
+            },
+            "nombre": "ROMERO"
+        },
+        "contacto": {
+            "telefono_movil": "3125561695",
+            "telefono_trabajo": null,
+            "telefono_personal": "3125561695",
+            "correo_electronico": "3125561695@temp.com4"
+        },
+        "matricula": "20088",
+        "estado_civil": {
+            "id": 1,
+            "nombre": "Soltero"
+        },
+        "apellido_materno": "AYALA",
+        "apellido_paterno": "NIÑO",
+        "fecha_nacimiento": "1987-03-11",
+        "lugar_nacimiento": "Amazonas",
+        "entidad_nacimiento": {
+            "id": 8616,
+            "nombre": "Amazonas"
+        },
+        "matricula_secundaria": null,
+        "persona_referencia_id": 20539,
+        "tipo_persona_referencia": 1,
+        "inscripcion_administrativa": {
+            "id": 20539,
+            "folio": "12473",
+            "grado": 1,
+            "turno": {
+                "id": 1,
+                "nombre": "MIXTO",
+                "abreviatura": "MIX"
+            },
+            "estatus": {
+                "id": 5,
+                "nombre": "Nuevo Ingreso",
+                "es_activo": true,
+                "abreviatura": "NIN",
+                "responsable": {
+                    "id": 59,
+                    "nombre": "JOSÉ MANUEL",
+                    "apellido_materno": null,
+                    "apellido_paterno": "CASTILLO"
+                },
+                "considerar_academicamente": true,
+                "considerar_administrativamente": true
+            },
+            "periodo": {
+                "id": 48,
+                "nombre": "2026-3May",
+                "tipo_plan": {
+                    "id": 2,
+                    "meses": 4,
+                    "nombre": "Cuatrimestral",
+                    "unidad": "Cuatrimestre",
+                    "abreviatura": "Cuat"
+                },
+                "abreviatura": "May 26-Ago 26",
+                "fecha_final": "2026-08-31T00:00:00",
+                "fecha_inicial": "2026-05-06T00:00:00"
+            },
+            "plantel": {
+                "id": 1,
+                "correo": "info@cesuma.mx",
+                "escudo": "https://d1e18x1focdnv1.cloudfront.net/cesuma/Escudos/47c8a40f_36d4_4837_a977_6861f27fe1571.png",
+                "nombre": "CESUMA",
+                "telefono": "2228126913",
+                "domicilio": {
+                    "cp": "72775",
+                    "pais": "México",
+                    "calle": "ATLACO",
+                    "estado": "PUEBLA",
+                    "no_ext": null,
+                    "no_int": "539",
+                    "region": "CHOLULA",
+                    "colonia": "SANTUAGO MOMOXPAN"
+                },
+                "abreviatura": "CESUM"
+            },
+            "alumno_id": 9201,
+            "observaciones": null,
+            "oferta_educativa": {
+                "id": 26,
+                "nombre": "MAESTRÍA EN TECNOLOGÍA Y CREATIVIDAD EDUCATIVA",
+                "abreviatura": "MCRE",
+                "plan_estudios": {
+                    "id": 43,
+                    "cct": "21MSU00681I",
+                    "rvoe": {
+                        "clave": "20221777",
+                        "fecha": "2022-12-02T00:00:00",
+                        "reconocimiento": "RVOE FEDERAL"
+                    },
+                    "nombre": "MAESTRIA EN TECNOLOGIA Y CREATIVIDAD EDUCATIVA",
+                    "version": "2022"
+                },
+                "nivel_academico": {
+                    "id": 5,
+                    "nombre": "Posgrado"
+                }
+            },
+            "fecha_inscripcion": "2026-04-10",
+            "grupo_administrativo": {
+                "id": null,
+                "nombre": null
+            }
+        }
+    }
+}
