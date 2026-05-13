@@ -1,0 +1,23 @@
+### POST request to example server
+POST {{url}}/ISAPI/ContentMgmt/DeviceMgmt/deviceList?format=json
+Authorization: Digest {{user}} {{password}}
+Content-Type: application/json
+Accept: application/json
+
+{
+    "SearchDescription": {
+        "position": 0,
+        "maxResult": 100,
+        "Filter": {
+            "key": "",
+            "devType": "",
+            "protocolType": [
+                "ehomeV5"
+            ],
+            "devStatus": [
+                "online",
+                "offline"
+            ]
+        }
+    }
+}

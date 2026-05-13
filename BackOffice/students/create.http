@@ -1,5 +1,5 @@
 ### Create canvas students
-POST {{test.url}}/api/academic/{{test.imagen_publica.school_id}}
+POST {{local.url}}/api/academic/{{local.imagen_publica.school_id}}
 Accept: application/json
 Content-Type: application/json
 
